@@ -1,2 +1,2 @@
-# htlml-auth-views
+# html-auth-views
 Reusable authentication pages in html
