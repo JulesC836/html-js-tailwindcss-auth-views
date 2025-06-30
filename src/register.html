@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/output/style.css">
+    <title>Login Form </title>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+    <div class="w-full max-w-md bg-white rounded-lg shadow-lg p-8">
+        <h2 class="text-2xl font-semibold text-center mb-6">Informations Personnelles</h2>
+        <form action="" class="space-y-5">
+            <div>
+                <label for="second-name" class="block text-sm font-medium text-gray-700 mb-1">Nom</label>
+                <input type="text" name="second-name" id="second-name" placeholder="Nom de famille"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-400" />
+            </div>
+            <div>
+                <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">Prénom</label>
+                <input type="text" name="first-name" id="first-name" placeholder="Prénoms"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-400" />
+            </div>
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <input type="email" name="email" id="email" placeholder="Votre email"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-400" />
+            </div>
+            <div class="flex gap-2">
+                <div class="w-32">
+                    <label for="genre" class="block text-sm font-medium text-gray-700 mb-1">Genre</label>
+                    <select name="genre" id="genre"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md bg-white focus:outline-none focus:ring-2 focus:ring-amber-400">
+                        <option value="m">Masculin</option>
+                        <option value="f">Féminin</option>
+                        <option value="o">Autre</option>
+                    </select>
+                </div>
+
+                <div class="flex-1">
+                    <label for="birthday" class="block text-sm font-medium text-gray-700 mb-1">Date de naissance</label>
+                    <input type="date" name="birthday" id="birthday" 
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-400" />
+                </div>
+            </div>
+            <div class="flex w-full justify-between items-center">
+                <a href="login.html" class="text-blue-500 hover:underline">< Se connecter</a>
+                <a href="set-password.html" class="text-blue-500 hover:underline">Continuer &gt;</a>
+            </div>
+        </form>
+    </div>
+</body>
